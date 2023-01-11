@@ -10,9 +10,9 @@ public class ProgramRunner
 				
 				System.out.println("Pop Inheritance Quiz! These are the four possible instantiations: ");
 				System.out.println("Seasons x = new Seasons( );");
-				System.out.println("Seasons x = new Winter( );");
-				System.out.println("Winter x = new Seasons( );");
-				System.out.println("Winter x = new Winter( );");
+				System.out.println("Seasons x = new Summer( );");
+				System.out.println("Summer x = new Seasons( );");
+				System.out.println("Summer x = new Summer( );");
 				System.out.println();
 				
 				questionOne();
@@ -45,8 +45,8 @@ public class ProgramRunner
 				System.out.println();
 				
 				System.out.println("A. The temperature changes throughout the year!");
-				System.out.println("B. It's freezing out here!");
-				System.out.println("C. I love the snow!");
+				System.out.println("B. It's so hot out here!");
+				System.out.println("C. I love the heat!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -76,9 +76,9 @@ public class ProgramRunner
 				System.out.println("    Seasons x = new Seasons( );");
 				System.out.println("    x.hasWeather();");
 				
-				System.out.println("A. Christmas: The best holiday of the year!");
-				System.out.println("B. Rain, shine, snow, or wind");
-				System.out.println("C. It's freezing out here!");
+				System.out.println("A. No school means no stress!!");
+				System.out.println("B. Rain, shine, snow, or wind!");
+				System.out.println("C. It's so hot out here!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -105,12 +105,12 @@ public class ProgramRunner
 				answer = "A";
 				
 				System.out.println("Question 3: What will this output?");
-				System.out.println("    Seasons x = new Winter( );");
+				System.out.println("    Seasons x = new Summer( );");
 				System.out.println("    x.isTemperature();");
 				
-				System.out.println("A. It's freezing out here!");
+				System.out.println("A. It's so hot out here!");
 				System.out.println("B. The temperature changes throughout the year!");
-				System.out.println("C. I love the snow!");
+				System.out.println("C. I love the heat!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -137,12 +137,12 @@ public class ProgramRunner
 				answer = "D";
 				
 				System.out.println("Question 4: What will this output?");
-				System.out.println("    Winter x = new Seasons( );");
+				System.out.println("    Summer x = new Seasons( );");
 				System.out.println("    x.hasWeather();");
 				
-				System.out.println("A. Rain, shine, snow, or wind");
-				System.out.println("B. Christmas: The best holiday of the year!");
-				System.out.println("C. I love the snow!");
+				System.out.println("A. Rain, shine, snow, or wind!");
+				System.out.println("B. No school means no stress!");
+				System.out.println("C. I love the heat!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -168,12 +168,12 @@ public class ProgramRunner
 			{
 				answer = "D";
 				System.out.println("Question 5: What will this output?");
-				System.out.println("    Winter x = new Seasons( );");
+				System.out.println("    Summer x = new Seasons( );");
 				System.out.println("    x.isTemperature();");
 				
-				System.out.println("A. It's freezing out here!");
+				System.out.println("A. It's so hot out here!");
 				System.out.println("B. The temperature changes throughout the year!");
-				System.out.println("C. Rain, shine, snow, or wind");
+				System.out.println("C. Rain, shine, snow, or wind!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -200,12 +200,12 @@ public class ProgramRunner
 				answer = "D";
 				
 				System.out.println("Question 6: What will this output?");
-				System.out.println("    Winter x = new Seasons( );");
-				System.out.println("    x.celebrateChristmas();");
+				System.out.println("    Summer x = new Seasons( );");
+				System.out.println("    x.noSchool();");
 				
-				System.out.println("A. Rain, shine, snow, or wind");
-				System.out.println("B. Christmas: The best holiday of the year!");
-				System.out.println("C. I love the snow!");
+				System.out.println("A. Rain, shine, snow, or wind!");
+				System.out.println("B. No school means no stress!");
+				System.out.println("C. I love the heat!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -232,12 +232,12 @@ public class ProgramRunner
 				answer = "A";
 				
 				System.out.println("Question 7: What will this output?");
-				System.out.println("    Winter x = new Winter( );");
+				System.out.println("    Summer x = new Summer( );");
 				System.out.println("    x.hasWeather();");
 				
-				System.out.println("A. I love the snow!");
-				System.out.println("B. Rain, shine, snow, or wind");
-				System.out.println("C. It's freezing out here!");
+				System.out.println("A. I love the heat!");
+				System.out.println("B. Rain, shine, snow, or wind!");
+				System.out.println("C. It's so hot out here!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -264,12 +264,12 @@ public class ProgramRunner
 				answer = "C";
 				
 				System.out.println("Question 8: What will this output?");
-				System.out.println("    Winter x = new Winter( );");
+				System.out.println("    Summer x = new Summer( );");
 				System.out.println("    x.isTemperature();");
 				
 				System.out.println("A. The temperature changes throughout the year!");
-				System.out.println("B. I love the snow!");
-				System.out.println("C. It's freezing out here!");
+				System.out.println("B. I love the heat!");
+				System.out.println("C. It's so hot out here!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -298,12 +298,12 @@ public class ProgramRunner
 				answer = "B";
 				
 				System.out.println("Question 9: What will this output?");
-				System.out.println("    Winter x = new Winter( );");
-				System.out.println("    x.celebrateChristmas();");
+				System.out.println("    Summer x = new Summer( );");
+				System.out.println("    x.noSchool();");
 				
-				System.out.println("A. It's freezing out here!");
-				System.out.println("B. Christmas: The best holiday of the year!");
-				System.out.println("C. Rain, shine, snow, or wind");
+				System.out.println("A. It's so hot out here!");
+				System.out.println("B. No school means no stress!");
+				System.out.println("C. Rain, shine, snow, or wind!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -331,11 +331,11 @@ public class ProgramRunner
 				
 				System.out.println("Question 10: What will this output?");
 				System.out.println("    Seasons x = new Seasons();");
-				System.out.println("    x.celebrateChristmas;");
+				System.out.println("    x.noSchool;");
 				
-				System.out.println("A. Christmas: The best holiday of the year!");
-				System.out.println("B. Rain, shine, snow, or wind");
-				System.out.println("C. It's freezing out here!");
+				System.out.println("A. No school means no stress!");
+				System.out.println("B. Rain, shine, snow, or wind!");
+				System.out.println("C. It's so hot out here!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -362,12 +362,12 @@ public class ProgramRunner
 				answer = "A";
 				
 				System.out.println("Question 11: What will this output?");
-				System.out.println("    Seasons x = new Winter();");
+				System.out.println("    Seasons x = new Summer();");
 				System.out.println("    x.hasWeather;");
 				
-				System.out.println("A. I love the snow!");
-				System.out.println("B. Christmas: The best holiday of the year!");
-				System.out.println("C. Rain, shine, snow, or wind");
+				System.out.println("A. I love the heat!");
+				System.out.println("B. No school means no stress!");
+				System.out.println("C. Rain, shine, snow, or wind!");
 				System.out.println("D. Error");
 				System.out.println();
 				
@@ -394,12 +394,12 @@ public class ProgramRunner
 				answer = "D";
 				
 				System.out.println("Question 12: What will this output?");
-				System.out.println("    Seasons x = new Winter();");
-				System.out.println("    x.celebrateChristmas;");
+				System.out.println("    Seasons x = new Summer();");
+				System.out.println("    x.noSchool;");
 				
 				System.out.println("A. The temperature changes throughout the year!");
-				System.out.println("B. Christmas: The best holiday of the year!");
-				System.out.println("C. It's freezing out here!");
+				System.out.println("B. No school means no stress!");
+				System.out.println("C. It's so hot out here!");
 				System.out.println("D. Error");
 				System.out.println();
 				
