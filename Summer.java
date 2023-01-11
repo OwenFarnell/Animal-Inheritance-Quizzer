@@ -1,5 +1,5 @@
 
-public class Summe extends Seasons
+public class Summer extends Seasons
 	{
 
 			public void isTemperature()
