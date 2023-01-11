@@ -8,7 +8,7 @@ public  class Seasons
 				
 				public void hasWeather()
 				{
-					System.out.println("Rain, shine, snow, or wind");
+					System.out.println("Rain, shine, snow, or wind!");
 				}
 				
 	}

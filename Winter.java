@@ -1,20 +1,20 @@
 
-public class Winter extends Seasons
+public class Summer extends Seasons
 	{
 
 			public void isTemperature()
 				{
-					System.out.println("It's freezing out here!");
+					System.out.println("It's so hot out here!");
 				}
 				
 			public void hasWeather()
 				{
-					System.out.println("I love the snow!");
+					System.out.println("I love the heat!");
 				}
 			
-			public void celebrateChristmas()
+			public void noSchool()
 				{
-					System.out.println("Christmas: The best holiday of the year!");
+					System.out.println("No school means no stress!");
 				}
 				
 				
